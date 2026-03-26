@@ -1,0 +1,135 @@
+.git-main{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+}
+
+.git-con{
+    width:90%;
+    margin:auto;
+    text-align:center
+}
+
+.git-con h1{
+    font-size:2.8rem;
+}
+
+.git-con p{
+    font-size:1.4rem;
+    line-height:1.1;
+    color:#444444;
+}
+
+.contact-info-con{
+    text-align:left;
+}
+
+.contact-info-con h3{
+    font-size:1.4rem;
+}
+
+.contact-info-con p{
+    font-size:1.1rem;
+}
+
+.visit-us-con{
+    display:flex;
+    background:#b3e0ff;
+    border:2px solid #1aa3ff;
+    align-items:center;
+    gap:30px;
+    padding:0 30px;
+    margin-bottom:20px;
+    border-radius:10px;
+}
+
+.visit-us-con span{
+    background:#1aa3ff;
+    font-size:1.2rem;
+    padding:10px;
+    border-radius:8px;
+    color:#fff;
+}
+
+.business-hrs-con{
+    border:1px solid gray;
+    padding:20px;
+    background-color:#f0f0f5;
+    border-radius:20px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+.business-hrs-con h5{
+    font-size:1.3rem;
+}
+
+.business-hrs-con div{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width:100%;
+}
+
+.business-hrs-con div span{
+    font-size:1.2rem;
+}
+
+form{
+    border:1px solid gray;
+    border-radius:10px;
+    width:90%;
+    margin:auto;
+    margin-top:40px;
+    padding:20px 30px;
+    box-sizing:border-box;
+    display:flex;
+    flex-direction:column;
+}
+
+.input-con{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:20px;
+    gap:10px;
+}
+
+input{
+    padding:10px 20px;
+    border-radius:10px;
+    border:1px solid gray;
+    font-size:1.1rem;
+}
+
+.send-btn{
+    background:blueviolet;
+    color:#fff;
+    font-size:1.3rem;
+    padding:10px 0;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:3px;
+    border:none;
+}
+
+form p{
+    text-align:center;
+}
+
+
+@media (min-width:992px) {
+    .git-main{
+        display:flex;
+        flex-direction:row;
+    }
+     
+    .git-con{
+        width:45%;
+    }
+
+    form{
+        width:45%
+    }
+}

@@ -1,0 +1,132 @@
+.home-main{
+    padding-top:8rem;
+    width:100%;
+    padding-bottom:30px;
+    background: #002080;
+    display:flex;
+    flex-direction:column;
+}
+
+.home-left{
+    text-align:left;
+    padding:1rem 2.3rem;
+    display:flex;
+    flex-direction:column;
+    gap:2rem;
+}
+
+.home-ct{
+    margin-top:30px;
+    color:#fff !important;
+    background-color:#668cff;
+    border-radius:30px;
+    padding:8px 10px;
+    border:2px solid #99b3ff;
+    display:inline-block;
+    align-self:flex-start;
+}
+
+.home-left h1{
+    color:white;
+    font-size:2rem;
+}
+
+.home-left p{
+    line-height:1.1;
+    color:#99b3ff;
+    font-size:1.4rem;
+}
+
+.home-btns{
+    display:flex;
+    gap:1rem;
+}
+
+.home-btns button{
+    padding:10px 20px;
+    font-size:1.1rem;
+    border-radius:10px;
+}
+
+.home-btn1{
+    background-color:blue;
+    border:none;
+    color:white;
+    display:flex;
+    align-items:center;
+    gap:3px;
+}
+
+.home-btn2{
+    color:#ffff;
+    background: #809fff;
+    border:3px solid #99b3ff;
+    display:flex;
+    align-items:center;
+}
+
+.counts-con{
+    display:flex;
+    width:100%;
+    justify-content:space-between;
+}
+
+.counts-con strong{
+    font-size:2.8rem;
+}
+
+.counts-con span{
+    color:#668cff;
+    font-size:1.1rem;
+    font-weight:500;
+}
+
+.home-right{
+    position: relative;
+    width:92%;
+}
+
+.home-right img{
+    margin:30px 20px;
+    width:100%;
+    border-radius:8px;
+    border:3px solid #809fff;
+}
+
+.home-right-content{
+    width:90%;
+    position:absolute;
+    background:#fff;
+    display:flex;
+    align-items:center;
+    gap:20px;
+    padding:20px;
+    border-radius:20px;
+    bottom:70px;
+    left:5%;
+}
+
+.home-right-content span{
+    background-color:blueviolet;
+    color:white;
+    font-size:1.5rem;
+    font-weight:600;
+    padding:10px;
+    border-radius:50%;
+}
+
+@media (min-width:992px) {
+    .home-main{
+        flex-direction:row;
+    }
+
+    .home-right-content{
+        width:80%;
+        padding:5px;
+        margin-left:20px;
+    }
+    .home-left,
+    .home-right{
+        width:45%
+    }
+}
